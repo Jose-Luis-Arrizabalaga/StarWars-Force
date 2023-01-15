@@ -1,0 +1,150 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: -3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/espacioStar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vader-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: center;
+    width: 100%;
+}
+#Yoda{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.caption-title{/* Centrar el elemento en el contenedor del titulo de la imagen */
+    color: rgb(5, 53, 7); 
+    font-size: 30px; 
+    font-weight: bold; 
+    margin: -120px 0 0 0; 
+
+}
+.deathStar{
+    width: 400px;
+    height: 400px;
+    margin-right: 180px;
+    margin-top: 40px;
+    border-radius: 200px;
+    rotate: -35;
+}
+
+.contact{
+    display: flex;
+    width: 200px;
+    height:auto;
+    visibility: visible;
+    padding: 30px 0 0 50px;
+}
+.fa-github{
+    size: 2rem;
+    cursor: pointer;
+}
+.button-box{
+    letter-spacing: 1px;
+    width: 100px;
+}
+.contact {
+    position: relative;
+    line-height:50px;
+    color:rgb(14, 12, 12);
+    font-size: 20px;
+    margin: 0 0 0 60px;
+}
+
+
+.switch-bg{
+    background: #3b3b50;
+    width: 130px;
+    height: 50px;
+    border: 5px solid #43454F;
+    border-radius: 30px;
+    outline:0;
+    position: relative;
+    margin-left: 80px;
+}
+.switch {
+  margin: 0 0 -5px 0;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  border: 2pt solid;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+#s1{
+  background-image: url(./images/asteroid.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+
+  #forceI.vibrate {
+    animation: vibrate 3.5s;
+  }
+  
+  
+  @keyframes vibrate {
+    0% {
+      transform: translateY(100px);
+      transform: translate(-20px, 20px)
+    }
+    10% {
+      transform: translateY(30px);
+      transform: translate(-20px, 20px)
+    }
+    20% {
+      transform: translateY(200px);
+      transform: translate(-20px, 20px)
+    }
+    25% {
+        transform: translateY(60px);
+        transform: translate(-20px, 20px);
+      }
+    50% {
+        transform: translateY(80px);
+        transform: translate(-20px, -20px);
+      }
+      60% {
+        transform: translateY(120px);
+        transform: translate(-20px, 20px)
+      }
+      66% {
+        transform: translateY(70px);
+        transform: translate(-20px, 20px)
+      }
+    75% {
+        transform: translateY(40px);
+        transform: translate(20px, -20px);
+      }
+      82% {
+        transform: translateY(100px);
+        transform: translate(-20px, 20px)
+      }
+      91% {
+        transform: translateY(20px);
+        transform: translate(-20px, 20px)
+      }
+    100% {
+        transform: translateY(150px);
+        transform: translate(20px, 20px);
+      }
+  }
+  
